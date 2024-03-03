@@ -1,0 +1,27 @@
+{
+    "name": "telebot/telebot",
+    "type": "project",
+    "description": "Telegram Bot",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dlsrc/telebot"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Dmitry Lebedev",
+            "email": "dl@adios.ru",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Telebot\\" : ["src/"]
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    }
+}
